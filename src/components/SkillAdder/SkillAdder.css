@@ -1,0 +1,38 @@
+.skilladder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+h3,
+h6 {
+  margin: 0 0;
+}
+
+.skill__input {
+  outline: none;
+  border: 1.2px solid #999;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.error {
+  border: 1.2px solid #ff0000;
+  background-color: #ff898994;
+}
+
+.skill__display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill__chip {
+  padding: 5px;
+  background-color: #b697d3;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
